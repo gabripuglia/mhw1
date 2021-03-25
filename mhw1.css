@@ -2,7 +2,7 @@
 
 body {
   margin: 0px;
-  background-color: #eff6ff;
+  background-color: #84baff;
 }
 
 
@@ -19,7 +19,7 @@ body {
 
 .tagline-header {
   font-size: 18px;
-  max-width: 85%;
+  max-width: 70%;
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
   margin: 0px 0 15px 0;
@@ -31,7 +31,10 @@ body {
     font-size: 24px
   }
   .content-header h1 {
-    font-size: 72px
+    font-size: 60px
+  }
+  .tagline-header {
+    max-width: 85%;
   }
 }
 
@@ -53,7 +56,7 @@ body {
   padding-left: 3rem;
   font-family: 'Poppins', sans-serif;
   text-transform:uppercase;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 800;
 }
 
@@ -108,7 +111,6 @@ body {
   height: 100vh;
   min-height: 300px;
   max-height: 500px;
-  background: white;
   background-image: url('img/header-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,7 +137,7 @@ body {
   height: 100vh;
   min-height: 300px;
   max-height: 500px;
-  background: rgb(255,255,255, 0.5);
+  background: rgba(207,229,255, 0.7);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -143,8 +145,8 @@ body {
 
 @media only screen and (min-width: 992px) {
 .background-veil {
-  background: rgb(255,255,255, 0.5);
-  background: linear-gradient(90deg, rgba(255,255,255,0.5) 55%, rgba(255,255,255,0) 55%);
+  background: rgb(207,229,255, 0.6);
+  background: linear-gradient(120deg, rgba(207,229,255, 0.75) 10%, rgba(207,229,255, 0) 100%);
 }
 }
 
@@ -152,11 +154,11 @@ body {
   text-align: center;
   max-width: 500px;
   text-align: left;
-  padding-left: 3rem
+  padding-left: 4rem
 }
 
 .call-to-action {
-  padding: 15px;
+  padding: 10px 20px 10px 20px;
   background: white;
   border: 1px solid #eee;
   border-radius: 20px;
@@ -170,7 +172,7 @@ body {
 .call-to-action a {
   font-family: 'Poppins', sans-serif;
   text-transform:uppercase;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 800;
   color: #ff5e13;
   text-decoration: none;
@@ -181,7 +183,7 @@ body {
 /*prodotti*/
 
 .prodotti {
-  background: white;
+  background: #f8f8f8;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -191,6 +193,7 @@ body {
 
 .card {
   display: flex;
+  background: white;
   flex-wrap: wrap;
   flex: 100%;
   max-width: 100%;
