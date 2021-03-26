@@ -15,7 +15,7 @@ body {
 /*Tipografia*/
 
 .content-header h1 {
-  font-size: 52px;
+  font-size: 60px;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -24,10 +24,11 @@ body {
 }
 
 .tagline-header {
-  font-size: 16px;
+  font-size: 18px;
   max-width: 70%;
   font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 600;
   margin: 0px 0 15px 0;
   color: #212121;
 }
@@ -149,8 +150,17 @@ body {
 .content-header {
   text-align: center;
   max-width: 500px;
-  text-align: left;
-  padding-left: 4rem
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 600px){
+  .content-header {
+    justify-content: left;
+    text-align: left;
+    padding-left: 3.3rem;
+  }
 }
 
 .call-to-action {
